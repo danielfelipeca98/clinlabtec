@@ -1,0 +1,53 @@
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# IDE - IntelliJ
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# IDE - VS Code
+.vscode/
+*.code-workspace
+!.vscode/settings.json
+!.vscode/launch.json
+
+# IDE - Eclipse
+.classpath
+.project
+.settings/
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+logs/
+
+# Archivos temporales
+*.tmp
+*.bak
+*.swp
+*~
+
+# Archivos de base de datos
+*.db
+*.mv.db
+*.trace.db
+
+# Archivos de datos (del proyecto)
+data/
+*.csv
+!src/main/resources/*.csv
